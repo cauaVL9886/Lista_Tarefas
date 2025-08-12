@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
 }
-
+ 
 .container {
     width: 100%;
     max-width: 500px;
@@ -16,18 +16,18 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     padding: 20px;
 }
-
+ 
 h1 {
     text-align: center;
     color: #333;
 }
-
+ 
 .input-area {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
 }
-
+ 
 #task-input {
     flex-grow: 1;
     padding: 10px;
@@ -35,7 +35,7 @@ h1 {
     border-radius: 4px;
     font-size: 16px;
 }
-
+ 
 #add-task-btn {
     padding: 10px 15px;
     border: none;
@@ -45,38 +45,38 @@ h1 {
     cursor: pointer;
     font-size: 16px;
 }
-
+ 
 #add-task-btn:hover {
     background-color: #2851a7;
 }
-
+ 
 #task-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
+ 
 .task-item {
     display: flex;
     align-items: center;
     padding: 15px;
     border-bottom: 1px solid #eee;
 }
-
+ 
 .task-item:last-child {
     border-bottom: none;
 }
-
+ 
 .task-item span {
     flex-grow: 1;
     cursor: pointer;
 }
-
+ 
 .task-item.completed span {
     text-decoration: line-through;
     color: #aaa;
 }
-
+ 
 .task-item .actions button {
     background: none;
     border: none;
@@ -84,7 +84,6 @@ h1 {
     font-size: 18px;
     margin-left: 10px;
 }
-
 .app-footer{
     position: fixed;
     bottom: 0;
@@ -99,7 +98,4 @@ h1 {
     box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
     z-index: 1000;
 }
-
-body{
-    padding-bottom: 50px;
-}
+ 
